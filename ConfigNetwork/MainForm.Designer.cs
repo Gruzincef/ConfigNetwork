@@ -60,7 +60,7 @@ namespace ConfigNetwork
 			this.Mask = new System.Windows.Forms.TextBox();
 			this.button3 = new System.Windows.Forms.Button();
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-			this.помощьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.opisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -222,18 +222,19 @@ namespace ConfigNetwork
 			// menuStrip1
 			// 
 			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-									this.помощьToolStripMenuItem});
+									this.opisToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
 			this.menuStrip1.Size = new System.Drawing.Size(410, 28);
 			this.menuStrip1.TabIndex = 29;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
-			// помощьToolStripMenuItem
+			// opisToolStripMenuItem
 			// 
-			this.помощьToolStripMenuItem.Name = "помощьToolStripMenuItem";
-			this.помощьToolStripMenuItem.Size = new System.Drawing.Size(116, 24);
-			this.помощьToolStripMenuItem.Text = "О программе";
+			this.opisToolStripMenuItem.Name = "opisToolStripMenuItem";
+			this.opisToolStripMenuItem.Size = new System.Drawing.Size(116, 24);
+			this.opisToolStripMenuItem.Text = "О программе";
+			this.opisToolStripMenuItem.Click += new System.EventHandler(this.OpisToolStripMenuItemClick);
 			// 
 			// MainForm
 			// 
@@ -271,7 +272,7 @@ namespace ConfigNetwork
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
-		private System.Windows.Forms.ToolStripMenuItem помощьToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem opisToolStripMenuItem;
 		private System.Windows.Forms.MenuStrip menuStrip1;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.TextBox Mask;

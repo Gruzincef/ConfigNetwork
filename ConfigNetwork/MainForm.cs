@@ -192,6 +192,10 @@ private void SetIP(string ipAddress, string subnetMask, string gateway, string D
 		}
 }
 		
+		
+void OpisToolStripMenuItemClick(object sender, EventArgs e){
+	System.Diagnostics.Process.Start(@"https://github.com/Gruzincef/ConfigNetwork");	
+}
 }
 public class NtwrkIntrfc
 	{

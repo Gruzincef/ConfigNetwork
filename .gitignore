@@ -9,6 +9,6 @@ ConfigNetwork/obj/Debug/ConfigNetwork.csproj.GenerateResource.Cache
 
 ConfigNetwork/obj/Debug/ConfigNetwork.exe
 ConfigNetwork/obj/Debug/ConfigNetwork.pdb
-ConfigNetwork/bin/Debug/ConfigNetwork.exe.config
-ConfigNetwork/obj/Debug/ConfigNetwork.csprojResolveAssemblyReference.cache
+
 ConfigNetwork/obj/Debug/ConfigNetwork.MainForm.resources
+ConfigNetwork/obj/Debug/ConfigNetwork.csprojResolveAssemblyReference.cache
